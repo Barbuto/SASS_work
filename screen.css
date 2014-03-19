@@ -1,0 +1,292 @@
+/*
+section.main{
+	font-size: 16px;
+	line-height: 1.4;
+
+@media screen and  (max-width: $width-large){
+	float: left;
+	width: 65%;
+}	
+@media screen and (max-width: $width-medium){
+		float: none;
+		width: auto;		
+	}
+@media screen and (max-width: $width-small){
+	font-size: 12px;
+	line-height: 1.4;
+	}	
+}
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/resize\.scss}line{font-family:\0000342}}
+#content {
+  float: left;
+  width: 70%; }
+  @media only screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/resize\.scss}line{font-family:\0000342}}
+    #content {
+      width: 80%; } }
+  @media only screen and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/resize\.scss}line{font-family:\0000342}}
+    #content {
+      width: 50%;
+      font-size: 14px; } }
+  @media only screen and (max-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/resize\.scss}line{font-family:\0000342}}
+    #content {
+      float: none;
+      width: 100%;
+      font-size: 12px; } }
+
+/*
+@media (-webkit-min-device-pixel-ratio: 1.5),
+	   (min--moz-device-pixel-ratio: 1.5),
+	   (-o-min-device-pixel-ratio: 3/2),
+	   (min-device-pixel-ratio: 1.5),
+	   (min-resolution: 1.5dppx){
+ul.folloe li.dribble a{
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	background-postion: 0 50%;
+	background-image: url(../img/icon-dribble-2x.png);
+	-webkit-background-size: 24px 24px;
+	   -moz-background-size: 24px 24px;
+	   		background-size: 24px 24px;
+    }	   
+   }
+   */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/resize\.scss}line{font-family:\00003104}}
+li.drible a {
+  background-image: url("../img/icon-dribble.png"); }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/resize\.scss}line{font-family:\0000377}}
+    li.drible a {
+      background-image: url("../img/icon-dribble-2xpng");
+      -webkit-background-size: 24px 24px;
+      -moz-background-size: 24px 24px;
+      background-size: 24px 24px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/resize\.scss}line{font-family:\00003108}}
+li.flickr a {
+  background-image: url("../img/icon-flickr.png"); }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/resize\.scss}line{font-family:\0000377}}
+    li.flickr a {
+      background-image: url("../img/icon-flickr-2xpng");
+      -webkit-background-size: 24px 24px;
+      -moz-background-size: 24px 24px;
+      background-size: 24px 24px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/resize\.scss}line{font-family:\00003112}}
+li.facebook a {
+  background-image: url("../img/icon-facebook.png"); }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/resize\.scss}line{font-family:\0000377}}
+    li.facebook a {
+      background-image: url("../img/icon-facebook-2xpng");
+      -webkit-background-size: 24px 24px;
+      -moz-background-size: 24px 24px;
+      background-size: 24px 24px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000315}}
+:root {
+  var-color-main: #333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000319}}
+#main p {
+  color: var(color-main); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000323}}
+header[role="banner"] {
+  margin: 20px 0 30px;
+  border-bottom: 4px solid #333;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+  background-color: #ea4c89;
+  background-size: 16px 16px;
+  background-image: url(sasquatch.png);
+  background-repeat: no-repeat;
+  background-position: top left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000327}}
+  header[role="banner"] .alert, header[role="banner"] .alert-positive {
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: normal;
+    texts-transformation: upppercase;
+    line-height: 1;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #fff;
+    background: #ea4c89;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000340}}
+  header[role="banner"] .important, header[role="banner"] .alert-positive {
+    font-size: 4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000344}}
+  header[role="banner"] .alert-positive {
+    background: #9c3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000364}}
+  header[role="banner"] a {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+    border-bottom: 2px solid red; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000370}}
+    header[role="banner"] a:hover {
+      color: maroon;
+      border-color: maroon; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000376}}
+  header[role="banner"] li a {
+    color: blue; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000379}}
+    header[role="banner"] li a.alert, header[role="banner"] li a.alert-positive {
+      color: red; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000383}}
+    header[role="banner"] li a.sucess {
+      color: green; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000388}}
+  header[role="banner"] #logo {
+    float: left;
+    margin: 0 20px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000393}}
+    header[role="banner"] #logo img {
+      display: block;
+      opacity: .95; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000399}}
+  header[role="banner"] h1 {
+    padding: 15px 0;
+    font-size: 54px;
+    font-family: Jubilat, Georgia, serif;
+    font-weight: bold;
+    font-line-height: 1; }
+    @media only screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000399}}
+      header[role="banner"] h1 {
+        font-size: 48px; } }
+    @media only screen and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000399}}
+      header[role="banner"] h1 {
+        font-size: 32px; } }
+    @media only screen and (max-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\0000399}}
+      header[role="banner"] h1 {
+        font-size: 20px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\00003117}}
+  header[role="banner"] body {
+    padding: 0 8%;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, san-serif;
+    font-size: 100%;
+    background: white url(../img/bg.jpg) repeat-x -80% 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\00003124}}
+  header[role="banner"] section.main p {
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    line-height: 1.5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\00003130}}
+  header[role="banner"] section.main h2 {
+    margin: 0 0 20px  0;
+    font-family: Jubilat, Gorgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transformation: uppercase;
+    color: #cc6633;
+    background: #eeeeee; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\00003134}}
+  header[role="banner"] seciton.secondary h3 {
+    margin: 0 0 20px  0;
+    font-family: Jubilat, Gorgia, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transformation: uppercase;
+    color: #3399cc;
+    background: #333333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\00003138}}
+  header[role="banner"] body.store section.main p {
+    font-size: 16px;
+    line-height: 1.4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\00003144}}
+section.secondary {
+  background: #fad5e3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\00003148}}
+ol.slats li a img {
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 4px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\00003157}}
+div.model {
+  padding: 20px;
+  background: #eee;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\00003165}}
+header nav[role="navigation"] ul li.active a {
+  padding: 3px 8px;
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\00003169}}
+  header nav[role="navigation"] ul li.active a.active a {
+    padding: 3px 8px;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    /*Fall Back from browsers*/
+    background-color: #d42a78;
+    /*Monzilla Firefox*/
+    background-image: -moz-linear-gradient(#ff70b1, #d42a78);
+    /*Opera*/
+    background-image: 0 -linear-gradient(#ff70b1, #d42a78);
+    /*webkit (Safari 4+, Chrome 1+)*/
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ff70b1), color-stop(1, #d42a78));
+    /*webkit chrome 11+*/
+    background-image: -ms-linear-gradient(#ff70b1, #d42a78);
+    /*IE10*/
+    background-image: -ms-linear-gradient(#ff70b1, #d42a78);
+    /*W3C*/
+    background-image: linear-gradient(#ff70b1, #d42a78); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\00003176}}
+  header nav[role="navigation"] ul li.active a button {
+    padding: 5px 10px;
+    color: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    /*Fall Back from browsers*/
+    background-color: #1a6798;
+    /*Monzilla Firefox*/
+    background-image: -moz-linear-gradient(#42b3e2, #1a6798);
+    /*Opera*/
+    background-image: 0 -linear-gradient(#42b3e2, #1a6798);
+    /*webkit (Safari 4+, Chrome 1+)*/
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #42b3e2), color-stop(1, #1a6798));
+    /*webkit chrome 11+*/
+    background-image: -ms-linear-gradient(#42b3e2, #1a6798);
+    /*IE10*/
+    background-image: -ms-linear-gradient(#42b3e2, #1a6798);
+    /*W3C*/
+    background-image: linear-gradient(#42b3e2, #1a6798); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\00003185}}
+  header nav[role="navigation"] ul li.active a .buy, header nav[role="navigation"] ul li.active a .submit {
+    padding: 10px;
+    font-weight: bold;
+    background: blue;
+    border-radius: 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/stephen\/SASS_work\/screen\.scss}line{font-family:\00003196}}
+  header nav[role="navigation"] ul li.active a .submit {
+    background: green; }

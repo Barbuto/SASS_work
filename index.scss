@@ -1,0 +1,16 @@
+
+
+$color-main: #333; // black
+$color-back: #FFF; // white
+$color-light: #999; // grey
+$color-accent: #ea4c89; // pink
+$font-sans: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, san-serif;
+$font-serif: Jubilat, Gorgia, serif;
+
+
+body {
+	padding: 0 8%;
+		font-family: $font-sans;
+		font-size: 100%;
+		background: color-back;
+}

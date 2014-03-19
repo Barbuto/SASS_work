@@ -1,0 +1,201 @@
+@import "mixins.scss";
+@import "variables.scss";
+@import "resize.scss";
+
+@mixin title-style ($color, $background: #eee) { 
+	margin: 0 0 20px  0;
+	font-family: $font-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-transformation: uppercase;
+	color: $color;
+	background: $background;
+}
+
+:root {
+	var-color-main: #333;
+}
+
+#main p {
+	color: var(color-main);
+}
+
+header[role="banner"] {
+	margin: 20px 0 30px;
+	border-bottom: 4px solid #333;	
+
+	.alert {
+		padding: 15px;
+		font-size: 1.2em;
+		font-weight: normal;
+		texts-transformation: upppercase;
+		line-height: 1;
+		letter-spacing: 3px;
+		text-align: center;
+		color: #fff;
+		background: $color-accent;
+		@include shadow(0, 1px, 2px, rgba(0,0,0,.5));
+		@include rounded(10px); 
+	} 
+	.important {
+		font-size: 4em;
+	}
+
+	.alert-positive {
+		@extend .alert;
+		@extend .important;
+		background: #9c3;
+	}
+
+	text: {
+		transform: uppercase;
+		decoration: underline;
+		align: center;	
+	} 
+
+	background: {
+		color:  $color-accent;
+		size: 16px 16px;
+		image: url(sasquatch.png);
+		repeat: no-repeat;
+		position: top left;
+	}
+
+	a {
+		font-weight:  bold;
+		text-decoration: none;
+		color: red;
+		border-bottom: 2px solid red;
+	
+	&:hover {
+		color: maroon;
+		border-color: maroon;
+	  }
+		}
+
+	li a {
+		color: blue;
+
+		&.alert {
+			color: red;
+		}
+
+		&.sucess {
+			color: green;	
+		  }
+		}  
+		
+	#logo {
+		float: left;
+		margin: 0 20px 0 0;
+
+
+		img {
+			display: block;
+			opacity: .95;
+		}
+	}
+
+	h1 {
+		padding: 15px 0;
+		font: {
+		size: 54px;
+		family: Jubilat, Georgia, serif;
+		weight: bold;		
+		line-height: 1;
+	  }
+	  @include responsive(wide-screens) {
+	   font-size: 48px;
+	  }
+	  @include responsive(medium-screens) {
+	  	font-size: 32px;
+	  }
+	  @include responsive(small-screens) {
+	  	font-size: 20px;
+	  } 
+    }
+	body {
+		padding: 0 8%;
+		font-family: $font-sans;
+		font-size: 100%;
+		background: #fff url(../img/bg.jpg) repeat-x -80% 0;	
+	}
+
+	section.main p {
+		margin: 0 0 20px 0;
+		font-size: 18px;
+		line-height: 1.5;
+	}
+ 
+ 	section.main h2{
+ 		@include title-style(#c63);
+ 	}
+
+ 	seciton.secondary h3{
+ 		@include title-style(#39c, #333);
+ 	}
+
+	body.store section.main p {
+		font-size: 16px;
+		line-height: 1.4;
+	}
+}
+
+section.secondary {
+	background: lighten($color-accent, 30%);
+}
+ 
+ ol.slats li a img {
+ 	float: left;
+ 	margin: 0 10px 0 0;
+ 	padding: 4px;
+ 	border: 1px solid #ddd;
+ 	@include rounded(3px);
+ 	}
+
+
+div.model {
+	padding: 20px;
+	background: #eee;
+	@include rounded(10px);
+	@include shadow(0, 1px, 2px, rgba(0,0,0,.5));
+}
+
+
+header nav[role="navigation"] ul li.active a{
+	padding: 3px 8px;
+	color: #fff;
+
+	&.active a {
+		padding: 3px 8px;
+		color: #fff;
+		@include rounded(4px);
+		@include linear-gradient(#ff70b1, #d42a78);
+	}
+
+	button {
+		padding: 5px 10px;
+		color: #fff;
+		@include rounded(6px);
+		@include linear-gradient(#42b3e2, #1a6798);
+	}
+
+
+
+	%button {
+		padding: 10px;
+		font-weight: bold;
+		background: blue;
+		border-radius: 6px;
+	}
+	
+	.buy {
+		@extend %button;
+	}
+
+	.submit {
+		@extend %button;
+		background: green;
+	}
+
+	}
